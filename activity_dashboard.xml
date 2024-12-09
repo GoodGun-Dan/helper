@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnRegisterDonor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvWelcome"
+        android:layout_marginTop="30dp"
+        android:text="Daftar Sebagai Pendonor"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnSearchDonor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegisterDonor"
+        android:layout_marginTop="20dp"
+        android:text="Cari Pendonor"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSearchDonor"
+        android:layout_marginTop="20dp"
+        android:text="Riwayat Donasi"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnShowBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnHistory"
+        android:layout_marginTop="20dp"
+        android:text="Tampilkan Barcode"
+        android:backgroundTint="#FFC107"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnShowBarcode"
+        android:layout_marginTop="20dp"
+        android:text="Bagikan via Bluetooth"
+        android:backgroundTint="#009688"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnScanBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnBluetooth"
+        android:layout_marginTop="20dp"
+        android:text="Scan Barcode"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF" />
+
+
+
+</RelativeLayout>
